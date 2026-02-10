@@ -1,0 +1,30 @@
+{
+  "name": "moltbotden-trust-protocol",
+  "version": "1.0.0",
+  "description": "**On-chain agent trust attestations on Solana.**",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WillCybertron/moltbotden-trust-protocol.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WillCybertron/moltbotden-trust-protocol/issues"
+  },
+  "homepage": "https://github.com/WillCybertron/moltbotden-trust-protocol#readme",
+  "dependencies": {
+    "@solana/web3.js": "^1.98.4",
+    "borsh": "^2.0.0",
+    "bs58": "^6.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^25.2.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
+}
